@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:hint="Rental Mobil"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColorHint="@color/colorPrimaryDark"/>
+    <EditText
+        android:id="@+id/nama_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Masukkan Nama"
+        android:layout_marginTop="10dp">
+        <requestFocus />
+    </EditText>
+    <EditText
+        android:id="@+id/email_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Masukkan Email"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="10dp">
+
+    </EditText>
+    <EditText
+        android:id="@+id/nohp_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Masukkan No. HP "
+        android:inputType="textMultiLine"
+        android:layout_marginTop="10dp"
+
+        >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/tanggal_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Masukkan Tanggal"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="25dp">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="300dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="Update" />
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="300dp"
+        android:layout_marginTop="4dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="Cancel Order"/>
+
+
+</LinearLayout>
